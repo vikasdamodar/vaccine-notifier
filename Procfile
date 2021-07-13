@@ -1,1 +1,1 @@
-worker: python vaccine_slot_notify.py
+web: python vaccine_slot_notify.py
