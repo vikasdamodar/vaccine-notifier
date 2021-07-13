@@ -1,1 +1,1 @@
-web: gunicorn '__main__':vaccine_notifier()
+web: gunicorn vaccine_slot_notify.py:vaccine_notifier()
