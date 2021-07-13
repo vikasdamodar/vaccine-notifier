@@ -29,8 +29,8 @@ def vaccine_notifier():
                                 + str(availability) + " On " + date_available
                 print(message_body)
 
-    account_sid = "ACe125b3fc8e803f2960274396759a230f"
-    auth_token = "33013a46c13cd0a5748acb1e4e655665"
+    account_sid = "x"
+    auth_token = "x"
     client = Client(account_sid, auth_token)
     print(message_body)
     if message_body:
